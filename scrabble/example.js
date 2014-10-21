@@ -24,9 +24,13 @@ CTS.loaded.then(function() {
 	jqNode.find('.guess').keypress(function(e) {
 		if(e.which == 13) {
 			if(jqNode.find('.guess').val() == current){
-				alert("right!");
+				jqNode.find('.x').hide();
+				jqNode.find('.check').show();
+				
 			} else {
-				alert("wrong!");
+				jqNode.find('.check').hide();
+				jqNode.find('.x').show();
+				
 			}
 			jqNode.find('.guess').val('');
 		}
