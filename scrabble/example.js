@@ -30,9 +30,8 @@ CTS.loaded.then(function() {
 			} else {
 				jqNode.find('.check').hide();
 				jqNode.find('.x').show();
-				
+				jqNode.find('.guess').val('');
 			}
-			jqNode.find('.guess').val('');
 		}
 	});
   });
