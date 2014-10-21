@@ -1,0 +1,11 @@
+.scrabble-impl {
+	padding: 20px;
+}
+
+.scrabble-impl .word {
+	font-size: 20px;
+}
+
+.scrabble-impl .guess {
+	width: 300px;
+}
